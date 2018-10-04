@@ -1,6 +1,12 @@
+### fork
+
+demo 地址: [造作家](file:///Users/rhinoc/Documents/GitHub/Index/cn/index.html)
+
+-------
+
+### origin
+
 [➡️ www.webstack.cc](https://webstack.cc) - 网址导航
-===
-QQ群交流：304584722
 
 这是一个纯静态的网址导航网站，内容均由[viggo](http://viggoz.com)收集并整理。项目基于bootstrap前端框架开发。
 
@@ -31,12 +37,5 @@ Copyright © 2017-2018 **[webstack.cc](https://webstack.cc)**  Released under th
 > 注：本站开源的目的是大家能够在本站的基础之上有所启发，做出更多新的东西。并不是让大家照搬所有代码。
 > 如果你使用这个开源项目，请**注明**本项目开源地址。
 
-Screenshot 📷
----
-![](http://www.webstack.cc/assets/images/webstack_banner_cn.png)
-![](http://7xnb6x.com1.z0.glb.clouddn.com/webstack-03-Introduction.png)
-![](http://7xnb6x.com1.z0.glb.clouddn.com/webstack-04-infomation.png)
-![](http://7xnb6x.com1.z0.glb.clouddn.com/webstack-05-production.png)
-![](http://7xnb6x.com1.z0.glb.clouddn.com/webstack-06-production2.png)
 
 
