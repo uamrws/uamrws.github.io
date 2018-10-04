@@ -308,7 +308,7 @@
 }
 
 .btn-toolbar .btn-default {
-    background-color: #68b828;
+    background-color: #000;
     color: #fff;
     border: 1px solid transparent
 }
@@ -562,7 +562,7 @@ table.focus-on tbody tr.unfocused td {
 
 table.focus-on tbody tr.focused th,
 table.focus-on tbody tr.focused td {
-    background-color: #68b828;
+    background-color: #000;
     color: #fff;
     border-color: #63b026
 }
@@ -917,14 +917,13 @@ body {
 .sidebar-menu {
     display: table-cell;
     position: relative;
-    width: 280px;
-    background: #2c2e2f;
+    width: 230px;
+    background: #171717;
     z-index: 1
 }
 
 .sidebar-menu .logo-env {
     padding: 19px 45px;
-    border-bottom: 1px solid #313437
 }
 
 .sidebar-menu .logo-env .logo {
@@ -942,7 +941,7 @@ body {
 }
 
 .sidebar-menu .logo-env .settings-icon a {
-    color: #979898;
+    color: #ffffffbf;
     line-height: 1
 }
 
@@ -971,11 +970,10 @@ body {
 }
 
 .sidebar-menu .main-menu a {
-    color: #979898;
+    color: #ffffffbf;
     text-decoration: none;
     display: block;
     padding: 13px 5px;
-    border-bottom: 1px solid #313437
 }
 
 .sidebar-menu .main-menu a>i {
@@ -1691,7 +1689,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: #68b828;
+    background: #000;
     display: none
 }
 
@@ -2324,7 +2322,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     top: 0;
     left: 0;
     right: 0;
-    background: #68b828;
+    background: #000;
     display: none
 }
 
@@ -2943,7 +2941,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 }
 
 .badge.badge-secondary {
-    background-color: #68b828
+    background-color: #000
 }
 
 .badge.badge-purple {
@@ -4977,8 +4975,8 @@ body.chat-open #chat {
 }
 
 .cbr-replaced.cbr-secondary .cbr-state {
-    background: #68b828;
-    border-color: #68b828
+    background: #000;
+    border-color: #000
 }
 
 .cbr-replaced.cbr-secondary.cbr-checked span {
@@ -4986,7 +4984,7 @@ body.chat-open #chat {
 }
 
 .cbr-replaced.cbr-secondary.cbr-checked.cbr-radio .cbr-state span {
-    background: #68b828
+    background: #000
 }
 
 .cbr-replaced.cbr-secondary.cbr-radio .cbr-state {
@@ -5345,7 +5343,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .btn.btn-secondary {
-    background-color: #68b828;
+    background-color: #000;
     color: #fff
 }
 
@@ -5762,8 +5760,8 @@ label.cbr-inline+.cbr-inline {
 }
 
 .dropdown-menu.dropdown-secondary {
-    background: #68b828;
-    border-color: #68b828
+    background: #000;
+    border-color: #000
 }
 
 .dropdown-menu.dropdown-secondary .divider {
@@ -6176,7 +6174,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .label.label-secondary {
-    background-color: #68b828;
+    background-color: #000;
     color: #fff
 }
 
@@ -6280,7 +6278,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .popover.popover-secondary .popover-title {
-    background-color: #68b828;
+    background-color: #000;
     color: #FFF;
     position: relative
 }
@@ -6291,7 +6289,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .popover.popover-secondary.bottom .arrow:after {
-    border-bottom-color: #68b828
+    border-bottom-color: #000
 }
 
 .popover.popover-info .popover-title {
@@ -6439,23 +6437,23 @@ label.cbr-inline+.cbr-inline {
 }
 
 .tooltip.tooltip-secondary .tooltip-inner {
-    background-color: #68b828
+    background-color: #000
 }
 
 .tooltip.tooltip-secondary.top .tooltip-arrow {
-    border-top-color: #68b828
+    border-top-color: #000
 }
 
 .tooltip.tooltip-secondary.bottom .tooltip-arrow {
-    border-bottom-color: #68b828
+    border-bottom-color: #000
 }
 
 .tooltip.tooltip-secondary.left .tooltip-arrow {
-    border-left-color: #68b828
+    border-left-color: #000
 }
 
 .tooltip.tooltip-secondary.right .tooltip-arrow {
-    border-right-color: #68b828
+    border-right-color: #000
 }
 
 .tooltip.tooltip-info .tooltip-inner {
@@ -7781,7 +7779,7 @@ address {
 }
 
 .skin-name-link:hover {
-    color: #68b828
+    color: #000
 }
 
 .bs-example {
@@ -7958,7 +7956,7 @@ div.scrollable {
 
 .icon-collection .fontawesome-icon-list .fa-hover .icon-str>i:hover {
     width: 60%;
-    background: #68b828;
+    background: #000;
     color: #fff
 }
 
@@ -8905,7 +8903,7 @@ a.text-primary:hover {
 }
 
 .text-secondary {
-    color: #68b828
+    color: #000
 }
 
 a.text-secondary:hover {
