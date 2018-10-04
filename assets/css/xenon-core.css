@@ -7975,7 +7975,8 @@ div.scrollable {
     padding-bottom: 8px;
     width: 75%;
     color: #7d7f7f;
-    font-family: Helvetica,Arial,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei","tohoma,sans-serif"
+    font-family: 'Open Sans Condensed', Futura, AvenirNext, Avenir, sans-serif;
+	font-weight: bold;
 }
 
 .icon-collection .fontawesome-icon-list .fa-hover .icon-str>span:hover {
