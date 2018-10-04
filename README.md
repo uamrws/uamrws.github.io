@@ -1,6 +1,6 @@
 ### fork
 
-demo 地址: [造作家](file:///Users/rhinoc/Documents/GitHub/Index/cn/index.html)
+demo 地址: [➡️ 造作家](https://rhinoc.github.io/Index/cn/index.html)
 
 -------
 
