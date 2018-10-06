@@ -3960,6 +3960,20 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 	vertical-align:baseline;
 	border-radius:.25em
 }
+
+.label2 {
+	display:inline;
+	padding:0;
+	font-size:75%;
+	font-weight:700;
+	line-height:1;
+	color:#fff;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:baseline;
+	border-radius:.25em
+}
+
 a.label:hover,a.label:focus {
 	color:#fff;
 	text-decoration:none;
