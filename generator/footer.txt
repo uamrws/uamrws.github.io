@@ -55,8 +55,8 @@ $("html,body").animate({
 });
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111463289-1"></script>
-<script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111463289-1"></script> -->
+<!-- <script>
 window.dataLayer = window.dataLayer || [];
 
 function gtag() {
@@ -65,7 +65,7 @@ dataLayer.push(arguments);
 gtag('js', new Date());
 
 gtag('config', 'UA-111463289-1');
-</script>
+</script> -->
 <!-- Bottom Scripts -->
 <script src="../assets/js/bootstrap.min.js"></script>
 <script src="../assets/js/TweenMax.min.js"></script>
@@ -73,7 +73,6 @@ gtag('config', 'UA-111463289-1');
 <script src="../assets/js/joinable.js"></script>
 <script src="../assets/js/xenon-api.js"></script>
 <script src="../assets/js/xenon-toggles.js"></script>
-<script src="../assets/js/Search.js"></script>
 <!-- JavaScripts initializations and stuff -->
 <script src="../assets/js/xenon-custom.js"></script>
 </body>

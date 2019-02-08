@@ -2275,8 +2275,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     min-height: 0;
     border: 0;
     padding: 0;
-    margin: -30px;
-    margin-bottom: 30px
+    margin: -30px
 }
 
 .user-info-navbar .user-info-menu {
@@ -4029,7 +4028,7 @@ body.chat-open #chat {
     background: #fff;
     padding: 20px 30px;
     border: 0;
-    margin-bottom: 30px;
+    margin-top: 30px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none
