@@ -264,6 +264,12 @@
             "disc": "分享美好数字生活",
             "img": "dgtle.png"
         },
+        "howtogeek":{
+            "url":"https://www.howtogeek.com/",
+            "name":"How-To Geek",
+            "disc":"国外在线科技媒体",
+            "img":"htg.jpg"
+        },
         "异次元软件世界": {
             "url": "https://www.iplaysoft.com/",
             "name": "异次元软件世界",

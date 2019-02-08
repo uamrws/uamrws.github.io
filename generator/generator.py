@@ -1,5 +1,5 @@
 #! python3
-import os, json, test
+import os, json
 
 # def header():
 
@@ -130,4 +130,10 @@ for id in dataText:
 indexFile.write(footerFile.read())
 
 #
+indexFile.close()
+aboutFile.close()
+footerFile.close()
+feeterFile.close()
+headerFile.close()
+midFile.close()
 dataJson.close()
