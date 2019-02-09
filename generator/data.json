@@ -376,6 +376,12 @@
             "disc": "程序员的成长之路",
             "img": "ming.png"
         },
+        "苏洋博客":{
+            "url":"https://soulteary.com/",
+            "name":"苏洋博客",
+            "disc":"前新浪美团阿里员工",
+            "img":"soulteary.jpg"
+        },
         "奔跑中的奶酪":{
             "url": "https://www.runningcheese.com/",
             "name": "奔跑中的奶酪",
