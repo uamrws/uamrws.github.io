@@ -1,10 +1,47 @@
-### fork
+###
 
-demo 地址: [➡️ 造作家](https://rhinoc.github.io/Index/cn/index.html)
+这个项目是为了做一个适合自己的首页，加入了哈尔滨工业大学（深圳）的常用网站，所以也可以作为类似[北邮人导航](byr.wiki)的哈工深版。
+
+demo 地址: [➡️ 造作家](https://www.hitsz.top/)
+
+我的博客: [www.rhinoc.top](https://rhinoc.top/)
+
+#### feature
+[x] 根据JSON文件自动生成网页（目前支持`index.html`和`about.html`）
+[x] 支持阿里巴巴iconfont
+[x] 类地址栏搜索（有关类地址栏搜索下面会说明）
+[ ] 搜索结果建议
+[ ] 页面内搜索
+
+欢迎PR～
+
+
+#### generator.py 使用说明
+
+直接运行即可。
+JSON文件和头部尾部HTML文件都在同级目录下，根据自己需要修改。
+写了一篇相关博文在我的博客里[「JSON-to-HTML」根据JSON文件信息生成静态导航网页](https://rhinoc.top/post/generator-py.html)
+
+#### 类地址栏搜索说明
+
+搜索引擎在`searchbar.js`中定义，下面是支持的搜索引擎：
+
+```
+bd 百度
+db 豆瓣
+zh 知乎
+wx 微信
+tb 淘宝
+gh GitHub
+gg Google
+ddg DuckDuckGo
+```
 
 -------
 
-### origin
+### Fork From
+
+> 这里是原版的说明，但由于我已经大刀阔斧地改了文件夹目录结构，所以下面👇的可能不适用，仅作参考。
 
 [➡️ www.webstack.cc](https://webstack.cc) - 网址导航
 
@@ -36,6 +73,3 @@ License
 Copyright © 2017-2018 **[webstack.cc](https://webstack.cc)**  Released under the **MIT License**.
 > 注：本站开源的目的是大家能够在本站的基础之上有所启发，做出更多新的东西。并不是让大家照搬所有代码。
 > 如果你使用这个开源项目，请**注明**本项目开源地址。
-
-
-
