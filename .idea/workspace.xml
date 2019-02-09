@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d86b8bb-65df-4f2c-add3-597f9c88a21d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/js/searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/searchbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cn/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/generator/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index-simple-recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index-simple-recommend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index-simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index-simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/xenon-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/xenon-core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-collapsed@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo_dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/webstack_banner_cn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/webstack_icon_producthunt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/backup/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/feeter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/footer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/header.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/mid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +30,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Index$generator.coverage" NAME="generator Coverage Results" MODIFIED="1549645373495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generator" />
+    <SUITE FILE_PATH="coverage/Index$generator.coverage" NAME="generator Coverage Results" MODIFIED="1549695301204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generator" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+            <state relative-caret-position="455">
+              <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -30,6 +47,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/generator/generator.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -142,22 +166,23 @@
       <updated>1549614189340</updated>
       <workItem from="1549614192769" duration="1525000" />
       <workItem from="1549645370456" duration="54000" />
+      <workItem from="1549694857261" duration="361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1579000" />
+    <option name="totallyTimeSpent" value="1940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="904" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2552204" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26102087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -181,8 +206,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/generator/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+        <state relative-caret-position="455">
+          <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
         </state>
       </provider>
     </entry>

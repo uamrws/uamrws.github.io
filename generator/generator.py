@@ -9,7 +9,7 @@ def genItem(url,img,name,disc):
     line.append('\t\t<div class="xe-widget xe-conversations box2 label-info" onclick="window.open(\'' + url + '\', \'_blank\')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="' + url +'">')
     line.append('\t\t\t<div class="xe-comment-entry">')
     line.append('\t\t\t\t<a class="xe-user-img">')
-    line.append('''\t\t\t\t\t<img src="../assets/images/logos/''' + img + '''" class="img-circle" width="40">''')
+    line.append('''\t\t\t\t\t<img src="./assets/images/logos/''' + img + '''" class="img-circle" width="40">''')
     line.append('\t\t\t\t</a>')
     line.append('\t\t\t\t<div class="xe-comment">')
     line.append('''\t\t\t\t\t<a href="#" class="xe-user-name overflowClip_1">''')
@@ -58,7 +58,7 @@ def genMenua(menu):
         if 'item' in menu[title]:
             line.append('\t\t\t\t\t\t<a>')
         else:
-            line.append('\t\t\t\t\t\t<a href="index.html#' + title + '">')
+            line.append('\t\t\t\t\t\t<a href="../index.html#' + title + '">')
         line.append('\t\t\t\t\t\t\t<i class="' + menu[title]['icon'] + '"></i>')
         line.append('\t\t\t\t\t\t\t<span class="title">' + title + '</span>')
         line.append('\t\t\t\t\t\t</a>')
@@ -66,7 +66,7 @@ def genMenua(menu):
             line.append('\t\t\t\t\t\t<ul>')
             for subtitle in menu[title]['item']:
                 line.append('\t\t\t\t\t\t\t<li>')
-                line.append('\t\t\t\t\t\t\t\t<a href="index.html#' + subtitle + '">')
+                line.append('\t\t\t\t\t\t\t\t<a href="../index.html#' + subtitle + '">')
                 line.append('\t\t\t\t\t\t\t\t\t<span class="title">' + subtitle + '</span>')
                 line.append('\t\t\t\t\t\t\t\t</a>')
                 line.append('\t\t\t\t\t\t\t</li>')
@@ -84,17 +84,19 @@ menuJson = open('menu.json', 'r', encoding='utf-8')
 menuText = json.load(menuJson)
 
 # load header, mid, footer
-headerFile = open('header.txt','r')
-header = headerFile.read()
-midFile = open('mid.txt','r')
-footerFile = open('footer.txt','r')
-feeterFile = open('feeter.txt','r')
+iheaderFile = open('iheader.html','r')
+aheaderFile = open('aheader.html','r')
+iheader = iheaderFile.read()
+aheader = aheaderFile.read()
+midFile = open('mid.html','r')
+footerFile = open('footer.html','r')
+feeterFile = open('feeter.html','r')
 
 #
-indexFile = open('../cn/index.html','w')
-indexFile.write(header)
-aboutFile = open('../cn/about.html','w')
-aboutFile.write(header)
+indexFile = open('../index.html','w')
+indexFile.write(iheader)
+aboutFile = open('../pages/about.html','w')
+aboutFile.write(aheader)
 
 
 # generate Menu
@@ -134,6 +136,7 @@ indexFile.close()
 aboutFile.close()
 footerFile.close()
 feeterFile.close()
-headerFile.close()
+iheaderFile.close()
+aheaderFile.close()
 midFile.close()
 dataJson.close()
