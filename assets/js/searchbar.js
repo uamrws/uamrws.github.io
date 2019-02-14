@@ -23,6 +23,13 @@ $("input:text").bind("input propertychange",function(){
       input.placeholder = "Search 百度";
       mode = 'search';
       break;
+    case 'sg ':
+        form.action = "https://www.sogou.com/web";
+        input.name = "query";
+        input.value = "";
+        input.placeholder = "Search 搜狗";
+        mode = 'search';
+        break;
     case 'ddg ':
       form.action = "https://duckduckgo.com/";
       input.name = "q";
@@ -63,6 +70,20 @@ $("input:text").bind("input propertychange",function(){
       input.name = "query";
       input.value = "";
       input.placeholder = "Search 知乎";
+      mode = 'search';
+      break;
+    case 'wk ':
+      form.action = "https://en.wikipedia.org/wiki/";
+      input.name = "search";
+      input.value = "";
+      input.placeholder = "Search Wikipedia";
+      mode = 'search';
+      break;
+    case 'wa ':
+      form.action = "https://www.wolframalpha.com/input/";
+      input.name = "i";
+      input.value = "";
+      input.placeholder = "Search WolframAlpha";
       mode = 'search';
       break;
   }

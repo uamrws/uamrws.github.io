@@ -1,14 +1,16 @@
 {
     "常用推荐": {
         "wikipedia": {
-            "url": "https://www.google.com/",
+            "url": "https://www.wikipedia.org/",
             "name": "Wikipedia",
             "disc": "全球最大的在线百科",
+            "kw": "wk",
             "img": "wikipedia.png"
         },
         "github": {
             "url": "https://www.github.com/",
             "name": "Github",
+            "kw": "gh",
             "disc": "全球最大的同性交友社区",
             "img": "github.png"
         },
@@ -21,18 +23,21 @@
         "淘宝": {
             "url": "https://taobao.com/",
             "name": "淘宝",
+            "kw": "tb",
             "disc": "中国最大的网络零售平台",
             "img": "taobao.png"
         },
         "豆瓣":{
             "url":"https://movie.douban.com/",
             "name":"豆瓣电影",
+            "kw": "db",
             "disc": "国内最有影响力的电影社区",
             "img": "douban.png"
         },
         "知乎":{
             "url":"https://www.zhihu.com/explore",
             "name":"知乎",
+            "kw": "db",
             "disc": "国内最受欢迎的知识性问答社区",
             "img": "zhihu.png"
         },
@@ -101,6 +106,7 @@
         "google": {
             "url": "https://www.google.com/",
             "name": "Google",
+            "kw": "gg",
             "disc": "全球最大的搜索引擎（英文优先）",
             "img": "google.png"
         },
@@ -113,18 +119,21 @@
         "百度": {
             "url": "https://www.baidu.com/",
             "name": "百度",
+            "kw": "bd",
             "disc": "全球最大的中文搜索引擎",
             "img": "baidu.png"
         },
         "搜狗": {
             "url": "https://www.sogou.com/",
             "name": "搜狗",
+            "kw": "sg",
             "disc": "支持微信和知乎等搜索",
             "img": "sogou.png"
         },
         "duckduckgo": {
             "url": "https://www.DuckDuckGo.com",
             "name": "DuckDuckGo",
+            "kw": "ddg",
             "disc": "隐私且简洁的搜索引擎",
             "img": "duck.png"
         },
@@ -143,6 +152,7 @@
         "wolframalpha": {
             "url": "https://www.wolframalpha.com/",
             "name": "WolframAlpha",
+            "kw": "wa",
             "disc": "知识搜索引擎",
             "img": "wolfram.png"
         },

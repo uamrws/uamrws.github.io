@@ -3,7 +3,13 @@ import os, json
 
 # def header():
 
-def genItem(url,img,name,disc):
+def genItem(dict):
+    url = dict['url']
+    img = dict['img']
+    name = dict['name']
+    disc = dict['disc']
+    if 'kw' in dict :
+        kw = dict['kw']
     line = []
     line.append('\t<div class="col-sm-3">')
     line.append('\t\t<div class="xe-widget xe-conversations box2 label-info" onclick="window.open(\'' + url + '\', \'_blank\')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="' + url +'">')
@@ -15,6 +21,8 @@ def genItem(url,img,name,disc):
     line.append('''\t\t\t\t\t<a href="#" class="xe-user-name overflowClip_1">''')
     line.append('\t\t\t\t\t\t<strong>' + name + '</strong>')
     line.append('\t\t\t\t\t</a>')
+    if 'kw' in dict:
+        line.append('<p class="overflowKeyword">' + kw + '</p>')
     line.append('''\t\t\t\t\t<p class="overflowClip_2">''' + disc + '</p>')
     line.append('\t\t\t\t</div>')
     line.append('\t\t\t</div>')
@@ -118,7 +126,7 @@ for id in dataText:
     items = dataText[id]
     for item in items:
         temp = items[item]
-        part = genItem(temp['url'],temp['img'],temp['name'],temp['disc'])
+        part = genItem(temp)
         indexFile.write(part)
         count += 1
         if count == 4:
